@@ -21,16 +21,6 @@
 
             transition: all 0.5s;
         }
-
-        #progress-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 5px;
-            background-color: grey;
-            width: 0%;
-            transition: width 0.5s ease-in-out;
-        }
     </style>
 
     <title>Quản lý tác giả</title>
@@ -67,9 +57,7 @@
             <div id="content">
 
                 <div class="container">
-                    <div ng-view>
-                        <div id="progress-bar"></div>
-                    </div>
+                    <div ng-view></div>
                 </div>
 
             </div>
