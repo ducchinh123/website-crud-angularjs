@@ -1,0 +1,267 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "nana",
+      "author": "nana"
+    },
+    {
+      "ten": "wwwww",
+      "tuoi": "wwwuuuww",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "ten": "4444",
+      "tuoi": "3333"
+    },
+    {
+      "id": 5,
+      "ten": "2222",
+      "tuoi": "2222"
+    },
+    {
+      "ten": "wwtttaâ",
+      "tuoi": "wwwttttaaa",
+      "id": 6
+    },
+    {
+      "ten": "2222",
+      "tuoi": "222",
+      "id": 7
+    },
+    {
+      "ten": "222",
+      "tuoi": "222",
+      "id": 8
+    },
+    {
+      "ten": "999",
+      "tuoi": "1999",
+      "id": 9
+    },
+    {
+      "ten": "222",
+      "tuoi": "222",
+      "id": 10
+    },
+    {
+      "ten": "222555",
+      "id": 11
+    },
+    {
+      "ten": "eeee",
+      "tuoi": "eee",
+      "id": 12
+    },
+    {
+      "ten": "ggg",
+      "tuoi": "ggg",
+      "id": 13
+    },
+    {
+      "ten": "hhh",
+      "tuoi": "jjjj",
+      "id": 14
+    },
+    {
+      "ten": "hhhh",
+      "tuoi": "hhh",
+      "id": 15
+    },
+    {
+      "ten": "kkk",
+      "tuoi": "ggg",
+      "id": 16
+    },
+    {
+      "ten": "ukm",
+      "tuoi": "ukm",
+      "id": 17
+    },
+    {
+      "ten": "nanâ",
+      "tuoi": "nana",
+      "id": 18
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "hihi": [
+    {
+      "name": "Đặng Văn An",
+      "age": "39",
+      "id": 1
+    },
+    {
+      "name": "Đặng Văn An",
+      "age": "35",
+      "id": 2
+    },
+    {
+      "name": "Đặng Văn An",
+      "age": "100",
+      "id": 3
+    },
+    {
+      "name": "Đặng Văn An",
+      "age": "250",
+      "id": 4
+    },
+    {
+      "name": "Đặng Văn An",
+      "age": "20",
+      "id": 5
+    }
+  ],
+  "staff": [
+    {
+      "name": "a",
+      "birth": "2003",
+      "gender": "nam",
+      "level": "2",
+      "timeWork": "12",
+      "id": 1
+    },
+    {
+      "name": "b",
+      "birth": "2005",
+      "gender": "nam",
+      "level": "2",
+      "timeWork": "12",
+      "id": 2
+    },
+    {
+      "name": "c",
+      "birth": "2010",
+      "gender": "nam",
+      "level": "2",
+      "timeWork": "12",
+      "id": 3
+    },
+    {
+      "name": "d",
+      "birth": "2013",
+      "gender": "nam",
+      "level": "3",
+      "timeWork": "12",
+      "id": 4
+    },
+    {
+      "name": "e",
+      "birth": "1990",
+      "gender": "nam",
+      "level": "3",
+      "timeWork": "12",
+      "id": 5
+    }
+  ],
+  "product": [
+    {
+      "name": "Bánh bông lan",
+      "price": "20000",
+      "cateProduct": "2",
+      "id": 3
+    },
+    {
+      "name": "Nem nắm Giao Thủy",
+      "price": "50000",
+      "cateProduct": "1",
+      "id": 6
+    }
+  ],
+  "phone": [
+    {
+      "id": 1,
+      "name": "Iphone new",
+      "brand": "1",
+      "capacity": "1",
+      "price": 1000
+    },
+    {
+      "name": "Abc",
+      "brand": "1",
+      "capacity": "1",
+      "price": "12000000",
+      "id": 2
+    },
+    {
+      "name": "Abc",
+      "brand": "2",
+      "capacity": "3",
+      "price": "13000000",
+      "id": 3
+    },
+    {
+      "name": "Abc",
+      "brand": "2",
+      "capacity": "3",
+      "price": "13000000",
+      "id": 4
+    },
+    {
+      "name": "Abc",
+      "brand": "3",
+      "capacity": "2",
+      "price": "10000000",
+      "id": 5
+    },
+    {
+      "name": "Abc",
+      "brand": "1",
+      "capacity": "2",
+      "price": "20000",
+      "id": 6
+    },
+    {
+      "name": "Sam Sung Galaxy 20",
+      "brand": "1",
+      "capacity": "3",
+      "price": "869",
+      "id": 10
+    },
+    {
+      "name": "Oppo thế hệ mới",
+      "brand": "3",
+      "capacity": "4",
+      "price": "10000000",
+      "id": 11
+    },
+    {
+      "name": "Iphone 2023",
+      "brand": "2",
+      "capacity": "5",
+      "price": "12000000",
+      "id": 12
+    }
+  ],
+  "author": [
+    {
+      "name": "Kim Lân",
+      "gender": "male",
+      "address": "Huyện Từ Sơn, Tỉnh Bắc Ninh",
+      "age": "100",
+      "id": 1
+    },
+    {
+      "name": "Huy Cận",
+      "gender": "male",
+      "address": "Huyện Hương Sơn, Tỉnh Hà Tĩnh",
+      "age": "35",
+      "id": 5
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

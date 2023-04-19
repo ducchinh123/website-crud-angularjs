@@ -1,0 +1,47 @@
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+
+        <h3 class="text-center text-capitalize">{{title}}</h3>
+        <form action="">
+            <div class="mb-3">
+                <label for="name">Tên tác giả</label>
+                <input type="text" id="name" class="form-control" ng-model="inputValue.name"
+                    placeholder="Nhập tên tác giả...">
+                <p style="color: red;" ng-if="checkData.name == true">❌ Không được bỏ trống tên tác giả!</p>
+            </div>
+
+            <div class="mb-3">
+                <label for="gender">Giới tính</label> <br>
+                <input type="radio" id="male" name="gender" value="male" class="form-check-input"
+                    ng-model="inputValue.gender">
+                <label for="male">Nam</label> <br>
+                <input type="radio" id="female" name="gender" value="female" class="form-check-input"
+                    ng-model="inputValue.gender">
+                <label for="female">Nữ</label> <br>
+                <p style="color: red;" ng-if="checkData.gender == true">❌ Không được bỏ trống giới tính tác giả!</p>
+            </div>
+            <div class=" mb-3">
+                <label for="address">Địa chỉ</label>
+                <input type="text" id="address" class="form-control" ng-model="inputValue.address"
+                    placeholder="Nhập địa chỉ tác giả...">
+                <p style="color: red;" ng-if="checkData.address == true">❌ Không được bỏ trống địa chỉ tác giả!</p>
+            </div>
+            <div class="mb-3">
+                <label for="age">Tuổi</label>
+                <input type="text" id="age" class="form-control" ng-model="inputValue.age"
+                    placeholder="Nhập tuổi tác giả...">
+                <p style="color: red;" ng-if="checkData.age == true">❌ Không được bỏ trống tuổi tác giả!</p>
+                <p style="color: red;" ng-if="checkData.age2 == true">❌ Tuổi tác giả phải lớn hơn 0!</p>
+                <p style="color: red;" ng-if="checkData.age3 == true">❌ Tuổi tác giả không được chứa dấu phẩy!</p>
+
+            </div>
+
+
+            <div class="mb-3 text-center">
+                <button type="button" ng-click="onSubmitForm()" class="btn btn-outline-info">Thêm mới</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-3"></div>
+</div>
